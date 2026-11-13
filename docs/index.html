@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>ABC College Events</h1>
+    <p>Welcome to Our College Event Portal</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#events">Events</a>
+    <a href="#about">About</a>
+</nav>
+
+<section id="home">
+    <h2>Upcoming Events</h2>
+    <p>Explore workshops, seminars and college activities.</p>
+</section>
+
+<section id="events">
+    <h2>Our Events</h2>
+
+    <div class="event-container">
+
+        <div class="event">
+            <h3>Technical Workshop</h3>
+            <p>Date: 20 November 2026</p>
+            <p>Learn Web Development and Programming.</p>
+            <button onclick="register('Technical Workshop')">
+                Register
+            </button>
+        </div>
+
+        <div class="event">
+            <h3>AI Seminar</h3>
+            <p>Date: 25 November 2026</p>
+            <p>Introduction to Artificial Intelligence.</p>
+            <button onclick="register('AI Seminar')">
+                Register
+            </button>
+        </div>
+
+        <div class="event">
+            <h3>Sports Day</h3>
+            <p>Date: 30 November 2026</p>
+            <p>Annual college sports activities.</p>
+            <button onclick="register('Sports Day')">
+                Register
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Our college organizes various events to
+        improve students' technical and practical skills.</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 ABC College</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
